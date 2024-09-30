@@ -1,0 +1,78 @@
+.region-europe {
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.region-africa {
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.region-asia {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.region-americas {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.region-oceania {
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.region-antarctic {
+    color: darkgray;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.countries-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.countryItem {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.flag-country {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.flagPhoto {
+    margin-right: 10px;
+}
+
+.flag-country p {
+    margin: 0;
+}
+
+.countryInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid darkgray;
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
